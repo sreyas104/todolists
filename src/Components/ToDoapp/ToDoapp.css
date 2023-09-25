@@ -1,0 +1,96 @@
+.Todoapp {
+    width: 100%;
+    padding-top: 100px;
+    margin: -15px;
+    height: 100%;
+    color: rgb(232, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.todoBody {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.head_input {
+    padding-bottom: 30px;
+    background-color: rgb(53, 98, 121);
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+.head_input button, input {
+    background: none;
+    border-color: rgb(216, 214, 214);
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+.head_input button {
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+}
+
+.head_input button:hover {
+    background-color: #fff;
+    color: grey;
+}
+
+ul {
+    padding: 0;
+
+}
+
+
+.listView {
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(53, 98, 121);
+    /* Add your preferred background color here */
+}
+
+.text {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.Del_btn, .edit_btn {
+    color: white;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.Del_btn:hover, .edit_btn:hover {
+    color: rgba(200, 9, 9, 0.804);
+}
+
+.check_btn:hover {
+    color: yellow;
+}
+
+.text {
+    text-transform: capitalize
+}
